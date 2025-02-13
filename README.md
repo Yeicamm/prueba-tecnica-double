@@ -1,5 +1,5 @@
 # Documentación del Proyecto: Sistema de Gestión de Tickets con GraphQL
-
+# Se adjunta coleccion de postman para pruebas
 ### Descripción General
 Este proyecto es una API desarrollada en Spring Boot 3.4.2 que permite la gestión de tickets mediante GraphQL y Spring Data JPA, con almacenamiento en PostgreSQL corriendo en Docker. La API proporciona funcionalidades para crear, actualizar, eliminar y consultar tickets, además de permitir la interacción con la API de GitHub.
 

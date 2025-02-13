@@ -1,0 +1,19 @@
+type Ticket {
+  id: ID!
+  usuario: String
+  fechaCreacion: String
+  fechaActualizacion: String
+  estatus: String
+}
+
+type Query {
+  getTicketById(id: ID!): Ticket
+  getAllTickets: [Ticket]
+  getTicketsByStatus(estatus: String!): [Ticket]
+}
+
+type Mutation {
+  createTicket(usuario: String!, estatus: String!): Ticket
+  updateTicket(id: ID!, usuario: String, estatus: String): Ticket
+  deleteTicket(id: ID!): String
+}

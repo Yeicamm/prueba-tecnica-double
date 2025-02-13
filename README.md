@@ -24,8 +24,8 @@ Instalación y Configuración
 ``` Instalación y Configuración
 Clonar el Repositorio
 
-git clone https://github.com/tu-usuario/prueba-tecnica.git
-cd prueba-tecnica
+git clone -b DEV https://github.com/Yeicamm/prueba-tecnica-double.git
+cd prueba-tecnica-double
 ```
 ## 🛠 Configuración de la Base de Datos (Docker & PostgreSQL)
 El proyecto usa **Docker** para la base de datos. Para ejecutarla, usa el siguiente **docker-compose**:

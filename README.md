@@ -178,10 +178,6 @@ La API devuelve un listado de usuarios con su información básica.
 ## Ejemplo de Respuesta en JSON:
 
 ```
-{
-"total_count": 8,
-"items": [
-{
   "total_count": 8,
   "incomplete_results": false,
   "items": [
